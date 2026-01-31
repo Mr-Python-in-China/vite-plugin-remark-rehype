@@ -1,6 +1,6 @@
 {
   "name": "@mr.python/vite-plugin-remark-rehype",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "",
   "keywords": [
@@ -17,7 +17,8 @@
   "source": "src/index.ts",
   "exports": {
     "require": "./dist/index.cjs",
-    "default": "./dist/index.mjs"
+    "default": "./dist/index.mjs",
+    "types": "./dist/index.d.ts"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
