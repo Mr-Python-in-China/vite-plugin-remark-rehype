@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
-import vitePluginMiddleware from "../dist";
+import vitePluginMiddleware from "../src";
 
 import remarkA11yEmoji from "@fec/remark-a11y-emoji";
 
